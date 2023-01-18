@@ -798,7 +798,7 @@ display: none;
  *************************************/
 
  .top1-social-video {
-  background: #031d33 url(../imagens-2022/fundo_videoblue.jpg) no-repeat fixed;
+  background: #000 no-repeat fixed;
 }
 
 .top1-social-video video {
@@ -833,15 +833,13 @@ display: none;
  *********** SEÇÃO 03 ****************
  *************************************/
 
- .work {
-  background: url(../imagens-2022/papel_parede_branco_azul.jpg) no-repeat ;
-  background-size:cover;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+.work {
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
 }
 
 .work img {
@@ -904,14 +902,12 @@ color: var(--black);
 
 @media (min-width: 1024px) { 
 .work {
-  background: url(../imagens-2022/papel_parede_branco_azul.jpg) no-repeat ;
-  background-size: 100% 100%;
-  height: 108vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+height: 108vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
 }
 
 .work img {
@@ -1005,27 +1001,27 @@ height: auto;
 
 
   .box_astronautas .astronauta1{
-    background: url(./imagens-2022/4-astronauta.png) no-repeat center 10px;
+    background: url(../img/4-astronauta.png) no-repeat center 10px;
     background-size: 30% 30%;
     }
   .box_astronautas .astronauta2{
-    background: url(./imagens-2022/5-astronauta.png) no-repeat center 10px;
+    background: url(../img/5-astronauta.png) no-repeat center 10px;
     background-size: 30% 30%;
     }
   .box_astronautas .astronauta3{
-    background: url(./imagens-2022/6-astronauta.png) no-repeat center 10px;
+    background: url(../img/6-astronauta.png) no-repeat center 10px;
     background-size: 30% 30%;
     }
   .box_astronautas .astronauta4{
-    background: url(./imagens-2022/7-astronauta.png) no-repeat center 10px;
+    background: url(../img/7-astronauta.png) no-repeat center 10px;
     background-size: 30% 30%;
     }
   .box_astronautas .astronauta5{
-    background: url(./imagens-2022/9-astronauta.png) no-repeat center 10px;
+    background: url(../img/9-astronauta.png) no-repeat center 10px;
     background-size: 40% 30%;
     }
   .box_astronautas .astronauta6{
-    background: url(./imagens-2022/8-astronauta.png) no-repeat center 10px;
+    background: url(../img/8-astronauta.png) no-repeat center 10px;
     background-size: 40% 30%;
     }
   
@@ -1164,23 +1160,24 @@ font-size: 13px;
 .detail .box_item .detail_box3,
 .detail .box_item .detail_box4{
   border: 1px solid rgba(0, 0, 0, 0.2);
-  width: 80%;
-  height: 60%;
+  width: 70%;
+  height: 90vh;
+  max-height: 150px;
   border-radius: 50%;
   }
 
   .detail .box_item .detail_box1{
-    background: url(./imagens-2022/1.png) no-repeat center;
-    background-size: 40% 60%;}
+    background: url(../img/1.png) no-repeat center;
+    background-size: 30% 50%;}
   .detail .box_item .detail_box2{
-    background: url(./imagens-2022/2.png) no-repeat center;
-    background-size: 50% 60%;}
+    background: url(../img/2.png) no-repeat center;
+    background-size: 50% 50%;}
   .detail .box_item .detail_box3{
-    background: url(./imagens-2022/3.png) no-repeat center;
-    background-size: 40% 60%;}
+    background: url(../img/3.png) no-repeat center;
+    background-size: 30% 50%;}
   .detail .box_item .detail_box4{
-    background: url(./imagens-2022/4.png) no-repeat center;
-    background-size: 60% 40%;}
+    background: url(../img/4.png) no-repeat center;
+    background-size: 40% 30%;}
   
 
 
@@ -1189,7 +1186,7 @@ font-size: 13px;
  ************ SEÇÃO 06****************
  *************************************/
  .testimonial {
-  background: url("./imagens-2022/11-planet_data_exeperience.jpg")no-repeat center;
+  background: url("../img/11-planet_data_exeperience.jpg")no-repeat center;
 
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -1213,7 +1210,7 @@ font-size: 13px;
   
 }
 .testimonial .fa-quote-right {
-  color: #1cb5e0;
+  color: var(--white);
   font-size: 3rem;
 }
 .testimonial p {
@@ -1229,7 +1226,7 @@ font-size: 13px;
 
 @media (min-width: 1200px) {
   .testimonial {
-    height: 80vh;
+    height: 90vh;
   }
   .testimonial .fa-quote-right {
     font-size: 4em;
@@ -1238,8 +1235,9 @@ font-size: 13px;
     width: 90%;
     font-size: 38px;
     padding: 0.2rem 3rem;
-    line-height: 3rem;
-    color: var(--blue);
+    line-height: 4rem;
+    letter-spacing: 0.7px;
+    color: var(--white);
     background: rgba(8, 24, 38, 0.6);
     font-weight: 200;
   }
@@ -1353,7 +1351,7 @@ width:100%;
 /*FOOTER*/
 footer{
 width:100%;
-background: linear-gradient(rgba(1,1,1,.8), rgba(1,1,1,.8)), url("https://i.ibb.co/mcbSLxz/section3.jpg");
+background: linear-gradient(rgba(1,1,1,.8), rgba(6, 0, 39, 0.3)), url("../img/footer.jpg");
 background-size:cover;
 background-repeat:no-repeat;
 background-position:center;
